@@ -65,6 +65,8 @@ assert.match(mainScript, /initializePartnersCarousel/);
 assert.match(html, /href="https:\/\/www\.instagram\.com\/macseguros2026"/);
 assert.match(html, /href="mailto:contato@macseguros\.com\.br"/);
 assert.match(html, /class="site-footer"/);
+assert.match(html, /class="whatsapp-float"/);
+assert.match(html, /class="whatsapp-float"[^>]+data-whatsapp="quote"/);
 
 const localAssetPaths = [...html.matchAll(/(?:href|src)="(\.\/assets\/[^"?]+)(?:\?[^" ]*)?"/g)]
   .map(([, assetPath]) => resolve(publicRoot, assetPath));
