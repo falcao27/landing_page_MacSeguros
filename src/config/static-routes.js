@@ -31,8 +31,8 @@ const partnerLogoFiles = Object.freeze([
 ]);
 
 export const staticRouteDefinitions = Object.freeze([
-  textRoute("/", "src/public/index.html", "text/html; charset=utf-8", "public, max-age=300"),
-  textRoute("/index.html", "src/public/index.html", "text/html; charset=utf-8", "public, max-age=300"),
+  textRoute("/", "src/public/index.html", "text/html; charset=utf-8", "no-cache, max-age=0, must-revalidate"),
+  textRoute("/index.html", "src/public/index.html", "text/html; charset=utf-8", "no-cache, max-age=0, must-revalidate"),
   textRoute(
     "/assets/css/main.css",
     "src/public/assets/css/main.css",
