@@ -8,7 +8,8 @@
 *{box-sizing:border-box}
 html{width:100%;max-width:100%;overflow-x:hidden;overscroll-behavior-x:none;scroll-behavior:smooth}
 body{width:100%;max-width:100%;margin:0;overflow-x:hidden;overscroll-behavior-x:none;color:var(--ink);background:var(--paper);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
-header,main,.site-footer{width:100%;max-width:100%;overflow-x:hidden}
+header{width:100%;max-width:100%;overflow:visible}
+main,.site-footer{width:100%;max-width:100%;overflow-x:hidden}
 body.custom-cursor,body.custom-cursor a,body.custom-cursor button{cursor:none}
 body.custom-cursor.modal-open,body.custom-cursor.modal-open a,body.custom-cursor.modal-open button{cursor:auto}
 body.custom-cursor.modal-open .insurance-modal,body.custom-cursor.modal-open .insurance-modal a,body.custom-cursor.modal-open .insurance-modal button{cursor:none}
