@@ -1,0 +1,12 @@
+{
+  "name": "macseguros-protecao",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/build.mjs && node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate-artifact.mjs",
+    "test": "npm run build && npm run validate"
+  },
+  "displayName": "MacSeguros | Prote\u00e7\u00e3o sob medida"
+}
